@@ -79,3 +79,6 @@ with gr.Blocks() as demo:
         generate_button.click(generate_pdf, inputs=prompt_text, outputs=output_file)
 
 demo.launch(share=True, show_api=False)
+
+
+## some changes for testing purpose
